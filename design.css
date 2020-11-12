@@ -1,0 +1,108 @@
+body {
+    font-family: 'Azonix';
+    background-image: url(food\ logo2.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    letter-spacing: 2px;
+}
+.container {
+    width: 400px;
+    margin-left: 60%;
+    margin-top: 70px;
+    border-radius: 30px;
+    background-color: #122436;
+    box-shadow: 0 0 8px rgb(255, 254, 254);
+    
+
+}
+
+.top {
+    margin-left: 22%;
+    margin-top: 10%;
+    
+}
+.header h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main input {
+    width: 300px;
+    height: 40px;
+    border: outset;
+    outline: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.main button {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding-left: 0;
+    background-color: #2977ff;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.main button:hover {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-color: #13408f;
+}
+
+.main input:hover {
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    background-color: rgb(235, 235, 235);
+}
+
+.test input,label {
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    font-size: 13px;
+    
+}
+
+.main span {
+    position: relative;
+}
+
+.middle a {
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    padding-right: 55%;
+    font-size: 13px;
+    color: #fdfeff;
+    text-decoration: none;
+}
+.mid a {
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    padding-right: 35%;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+}
