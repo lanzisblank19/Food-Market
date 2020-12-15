@@ -1,0 +1,112 @@
+body {
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    background-color: rgba($color: #fffdfd, $alpha: 0.8);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.test {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.test > .cb {
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.test label {
+    text-align: justify;
+    margin-left: 5px;
+    color: #000000;
+    font-size: 10px;
+    
+}
+
+.btn {
+    margin: auto;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(214, 144, 52);
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgb(168, 98, 7);
+    color: rgb(202, 202, 202);
+}
+
+.inner {
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Rockwell';
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.logo {
+    width: auto;
+    height: 150px;
+    margin-left: 5%;
+} 
+
+.names {
+    // background-color: black;
+    width: 500px;   
+    margin: auto;
+}
+
+.names input {
+    margin: auto;
+    width: 225px;
+    height: 40px;
+    border: outset;
+    outline: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-color: rgb(180, 180, 180);
+}
+
+
+.names input:focus {
+    outline: none !important;
+    border:1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px #208cff;
+}
+
+.names > .nm {
+    width: 200px;
+}
+
+.names > .dc {
+    
+    width: 86%;
+    height: 200px;
+}
+
+.names > .im {
+    width: 86%;
+    height: 100px;
+}
+
+.names > .sn {
+    width: 86%;
+}

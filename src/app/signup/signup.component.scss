@@ -1,0 +1,82 @@
+body {
+  margin: auto;
+}
+
+.top {
+    margin-left: 20%;
+    margin-top: 10%;
+    
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: auto;
+    border-radius: 30px;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+}
+
+.header h1 {
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: -25px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main input {
+    width: 300px;
+    height: 40px;
+    border: outset;
+    outline: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.main button {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding-left: 0;
+    background-color: rgb(214, 144, 52);
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.main button:hover {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-color: rgb(168, 98, 7);
+}
+
+.main input:hover {
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    background-color: rgb(235, 235, 235);
+}
+
+.names input {
+    width: 150px;
+    height: 40px;
+    border: outset;
+    outline: none;
+    padding-left: 28px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+
+}

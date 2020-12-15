@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lucida Sans';
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+.cont { 
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f1f4f5;
+  }
+
+  .list-unstyled a {
+      text-decoration: none;
+      color: #666565;
+      
+  }
+
+  .list-unstyled a:hover {
+      color: rgb(0, 0, 0); ;
+  }
+
+ .logo {
+     margin: auto;
+     width: auto;
+     height: 100px;
+ }
+.col-md-3 h5 {
+    margin-top: 20px;
+}
+ 
+.col-md-3 img{
+    margin-left: 5px;
+}
+
+.fb {
+    margin-right: 3px;
+    width: auto;
+    height: 30px;
+}
+
+.ig {
+    margin-right: 3px;
+    width: auto;
+    height: 30px;
+}
+
+.twit{
+    margin: auto;
+    width: auto;
+    height: 30px;
+}
