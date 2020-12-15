@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit {
   myimage7:string = "assets/image/donut1.jpg";
   myimage8:string = "assets/image/cake1.jpg";
   myimage9:string = "assets/image/takoyaki1.jpg";
+  myimage10:string = "assets/image/Store.jpg";
+  myimage11:string = "assets/image/milkteastore.jpg";
 
   constructor() { }
   ngOnInit(): void {

@@ -12,6 +12,7 @@ import { MostratingComponent } from './mostrating/mostrating.component';
 import { FooterComponent } from './footer/footer.component';
 import { EstablishmarketComponent } from './establishmarket/establishmarket.component';
 import { MealComponent } from './meal/meal.component';
+import { StoreComponent } from './store/store.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { MealComponent } from './meal/meal.component';
     FooterComponent,
     EstablishmarketComponent,
     MealComponent,
+    StoreComponent,
     
   ],
   imports: [

@@ -9,6 +9,7 @@ import { MostratingComponent } from './mostrating/mostrating.component';
 import { FooterComponent } from './footer/footer.component';
 import { EstablishmarketComponent } from './establishmarket/establishmarket.component';
 import { MealComponent } from './meal/meal.component';
+import { StoreComponent } from './store/store.component';
 
 
 const routes: Routes = [
@@ -51,6 +52,10 @@ const routes: Routes = [
 {
   path: 'meal',
   component: MealComponent
+},
+{
+  path: 'store',
+  component: StoreComponent
 }
 ];
 

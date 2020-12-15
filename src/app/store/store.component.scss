@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+}
+
+.container {
+    margin-top: 70px;
+    background-color: rgba($color: #ffffff, $alpha: 0.6);
+}
+
+.sl {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: auto;
+    height: 300px;
+  }
+
+.inner {
+    font-size: 80px;
+    font-family: 'Rockwell';
+}
+
+.inner p {
+    font-family: 'Lucida Sans';
+    font-size: 35px;
+}
+
+.ple {
+    width: auto;
+    height: 350px;
+}
+
+.me {
+    width: auto;
+    height: 450px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.bur {
+    margin-left: 50px;
+    width: auto;
+    height: 300px;
+    margin-bottom: 20px;
+}

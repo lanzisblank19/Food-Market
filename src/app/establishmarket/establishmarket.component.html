@@ -6,16 +6,24 @@
     <form>
         <span>
             <div class="names">
-                <input  type="text" placeholder="First Name" name="">
-                <input  type="text" placeholder="Last Name" name="">
-                <input class="nm"  type="number" placeholder="Contact Number" name="">
-                <input  type="email" placeholder="Email Address" name="">
-                <input class="nm"  type="text" placeholder="Type of Store" name="">
-                <input  type="text" placeholder="Location" name="">
-                <input class="sn"  type="text" placeholder="Store Name" name="">
-                <textarea class="dc"  type="text" placeholder="Description" name=""></textarea>
+                <form class="form-inline">
+                <input type="text" class="form-control" id="tt"  placeholder="First Name">
+                <input type="text" class="form-control" id="tt"  placeholder="Last Name">
+                <input type="number" class="form-control" id="nm"  placeholder="Contact Number">
+                <input type="email" class="form-control" id=""  placeholder="Email Address">
+                <select class="form-control" id="sl">
+                    <option value="" disabled selected>Type of Store</option>
+                    <option>Meal</option>
+                    <option>Beverage</option>
+                    <option>Dessert</option>
+                    <option>Snacks</option>
+                </select>
+                <input type="text" class="form-control" id="nm"  placeholder="location">
+            </form>
+            <input type="text" class="form-control" id="sn"  placeholder="Store Name">
+            <textarea input type="text" class="form-control" id="dc"  placeholder="Description"></textarea>
                 <h5>Choose your product image</h5>
-                <input class="im"  type="file" placeholder="image" name="">
+                <input type="file" class="form-control" id="im"  placeholder="location">
                 <div class="test">
                   <input class="cb" type="checkbox" name="">
                         <label>By proceeding, I agree that FoodMarket can collect, use and disclose the information<br> provided by me in accordance with the

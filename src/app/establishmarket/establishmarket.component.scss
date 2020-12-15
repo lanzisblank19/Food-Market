@@ -5,8 +5,8 @@ body {
 .container {
     margin: auto;
     width: 100%;
-    background-color: rgba($color: #fffdfd, $alpha: 0.8);
-    margin-top: 50px;
+    background-color: rgba($color: #ffffff, $alpha: 0.8);
+    margin-top: 70px;
     border-radius: 10px;
 }
 
@@ -65,48 +65,50 @@ body {
 }
 
 .names {
-    // background-color: black;
-    width: 500px;
+    width: 465px;
     margin: auto;
 }
 
 .names input {
-    margin: auto;
-    width: 225px;
+    width: 228px;
     height: 40px;
-    border: outset;
     outline: none;
     padding-left: 20px;
     box-sizing: border-box;
     font-size: 15px;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
-    margin-left: 5px;
+    margin-left: 3px;
     border-color: rgb(180, 180, 180);
 }
 
-
-.names input:focus {
-    outline: none !important;
-    border:1px solid rgb(0, 0, 0);
-    box-shadow: 0px 0px 10px #208cff;
-}
-
-.names > .nm {
+.names > #nm {
     width: 200px;
 }
 
-.names > .dc {
-
+.names > #dc {
     width: 86%;
     height: 200px;
 }
 
-.names > .im {
+.names > #im {
     width: 86%;
     height: 100px;
 }
 
-.names > .sn {
+.names > #sn {
     width: 86%;
+}
+
+#sl {
+    width: 228px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 3px;
+    border-color: rgb(180, 180, 180);
 }
