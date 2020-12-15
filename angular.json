@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "FoodMarket"
+  "defaultProject": "FoodMarket",
+  "cli": {
+    "analytics": false
+  }
 }

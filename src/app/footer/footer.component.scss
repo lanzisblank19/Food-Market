@@ -3,17 +3,11 @@ body {
     margin: auto;
     color: rgb(0, 0, 0);
 }
-.cont { 
-    margin-top: 5%;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #f1f4f5;
-  }
 
   .list-unstyled a {
       text-decoration: none;
       color: #666565;
-      
+
   }
 
   .list-unstyled a:hover {
@@ -28,7 +22,7 @@ body {
 .col-md-3 h5 {
     margin-top: 20px;
 }
- 
+
 .col-md-3 img{
     margin-left: 5px;
 }
@@ -49,4 +43,17 @@ body {
     margin: auto;
     width: auto;
     height: 30px;
+}
+
+.footer{
+  margin-top: 5%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f1f4f5;
+  // position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  max-height: 302px;
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-view',
@@ -17,9 +18,13 @@ export class ViewComponent implements OnInit {
   myimage9:string = "assets/image/takoyaki1.jpg";
   myimage10:string = "assets/image/wood.jpg";
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  singin() {
+    this.router.navigate(['/signin']);
   }
 
 }

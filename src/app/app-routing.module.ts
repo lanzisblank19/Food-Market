@@ -11,7 +11,11 @@ import { EstablishmarketComponent } from './establishmarket/establishmarket.comp
 import { MealComponent } from './meal/meal.component';
 
 
-const routes: Routes = [ 
+const routes: Routes = [
+  {
+    path: '',
+    component: ViewComponent
+  },
   {
     path: 'home',
     component: HomeComponent
