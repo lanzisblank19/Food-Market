@@ -3,6 +3,8 @@ body {
 }
 
 .container {
+    margin: auto;
+    width: 100%;
     margin-top: 70px;
     background-color: rgba($color: #ffffff, $alpha: 0.6);
 }
@@ -12,33 +14,52 @@ body {
     margin-bottom: 5px;
     width: auto;
     height: 300px;
+    // margin-left: 10%;
   }
 
 .inner {
-    font-size: 80px;
+    font-size: 90px;
     font-family: 'Rockwell';
+    text-align: center;
 }
 
-.inner p {
+.in {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.in p {
     font-family: 'Lucida Sans';
-    font-size: 35px;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 5%;
 }
 
 .ple {
-    width: auto;
-    height: 350px;
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 20px ;
 }
 
 .me {
+    margin-top: 6%;
     width: auto;
-    height: 450px;
-    margin-left: 10%;
+    height: 400px;
     margin-bottom: 20px;
 }
 
 .bur {
-    margin-left: 50px;
+    margin-left: 20px;
     width: auto;
-    height: 300px;
+    height: 260px;
     margin-bottom: 20px;
+}
+
+.sll {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: auto;
+    height: 30px;
+    margin-left: 5px;
 }
