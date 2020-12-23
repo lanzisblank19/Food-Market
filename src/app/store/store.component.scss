@@ -3,6 +3,7 @@ body {
 }
 
 .container {
+    padding-bottom: 20px;
     margin: auto;
     width: 100%;
     margin-top: 70px;
@@ -18,13 +19,14 @@ body {
   }
 
 .inner {
+    padding-top: 20px;
     font-size: 90px;
     font-family: 'Rockwell';
     text-align: center;
 }
 
 .in {
-
+    margin-top: -70px;
     background-color: rgba($color: #000000, $alpha: 0.5);
     width: 90%;
     margin-left: 5%;
@@ -34,7 +36,6 @@ body {
     color: whitesmoke;
     font-family: 'Lucida Sans';
     font-size: 30px;
-    margin-top: 10px;
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
@@ -48,7 +49,7 @@ body {
 }
 
 .me {
-    margin-top: 6%;
+    margin-top: 5%;
     width: auto;
     height: 400px;
     margin-bottom: 20px;
@@ -67,4 +68,35 @@ body {
     width: auto;
     height: 40px;
     margin-left: 5px;
+}
+
+.com {
+    padding-bottom: 20px;
+    color: whitesmoke;
+    margin: auto;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+}
+
+.com p {
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 90%;
+    border-bottom: 2px solid rgb(247, 247, 247);
+  }
+
+.yow {
+    // margin-right: 5%;
+    margin-top: -25%;
+    width: auto;
+    height: 60px;
+}
+
+#tt {
+    margin-left: 30px;
+    width: 60%;
+    padding-bottom: 30px;
 }

@@ -13,6 +13,7 @@ export class StoreComponent implements OnInit {
   myimage5:string = "assets/image/faceblogo.png";
   myimage6:string = "assets/image/instraglogo.png";
   myimage7:string = "assets/image/twitlogo.png";
+  myimage8:string = "assets/image/rating.png";
   constructor() { }
 
   ngOnInit(): void {
